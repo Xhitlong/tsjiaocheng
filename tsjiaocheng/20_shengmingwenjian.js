@@ -1,0 +1,6 @@
+/// <reference path="./20_calc.d.ts" />
+require("./20_calcThirdPartyJsLib.js");
+console.log("===========20 声明文件===========");
+let obj = new Runoob.Calc();
+console.log("100以内的和是：", obj.dosum(100));
+console.log("===========20 声明文件===========");
